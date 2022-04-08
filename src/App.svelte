@@ -29,7 +29,7 @@
 main
     width: 100vw
     height: 100vh
-    background-color: colors.$background-soft-color
+    background: url("/wallpaper.jpg") no-repeat fixed center
     display: flex
     flex-direction: row
     justify-content: center

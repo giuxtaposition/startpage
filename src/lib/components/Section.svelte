@@ -23,7 +23,8 @@
     padding: 1rem
     width: 15rem
     height: 20rem
-    background-color: colors.$purple-fading-soft
+    background-color: colors.$black-fading-soft
+    border-radius: 0.5rem
 
 h1
     margin: 0
