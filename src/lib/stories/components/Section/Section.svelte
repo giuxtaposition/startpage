@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { Link } from '../types/Link'
+    import type { Link } from '../../../types/Link'
     export let title: string
     export let links: Link[]
     export let color: 'blue' | 'purple' | 'red' | 'orange'
@@ -17,7 +17,7 @@
 </section>
 
 <style lang="sass">
-@use '../../colors'
+@use '../../../../colors'
 
 .links-section
     padding: 1rem
@@ -25,6 +25,7 @@
     height: 20rem
     background-color: colors.$black-fading-soft
     border-radius: 0.5rem
+    font-family: Fira Code
 
 h1
     margin: 0

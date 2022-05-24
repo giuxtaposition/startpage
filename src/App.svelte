@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Section from './lib/components/Section.svelte'
+    import Section from './lib/stories/components/Section/Section.svelte'
 
     const sections = getLinkSectionsData()
 
