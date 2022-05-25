@@ -1,7 +1,8 @@
 <script lang="ts">
     import Section from './lib/stories/components/Section/Section.svelte'
+    import type { Section as SectionType } from './lib/types/Section'
 
-    const sections = getLinkSectionsData()
+    const sections: Promise<SectionType[]> = getLinkSectionsData()
 
     async function getLinkSectionsData() {
         const apiResponse = await fetch('./links.json')
@@ -14,7 +15,7 @@
     {#await sections then sections}
         {#each sections as section}
             <Section
-                title={section.section}
+                title={section.title}
                 links={section.links}
                 color={section.color}
             />

@@ -1,8 +1,9 @@
 <script lang="ts">
     import type { Link } from '../../../types/Link'
+    import type { SectionColor } from '../../../types/Section'
     export let title: string
     export let links: Link[]
-    export let color: 'blue' | 'purple' | 'red' | 'orange'
+    export let color: SectionColor
 </script>
 
 <section class={`links-section ${color}`}>
