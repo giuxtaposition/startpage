@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Section Blue 1`] = `
+<section
+  class="storybook-snapshot-container"
+>
+   
+  <section
+    class="links-section blue svelte-vatf8z"
+  >
+    <h1
+      class="svelte-vatf8z"
+    >
+      Section Title
+    </h1>
+     
+    <ul
+      class="links svelte-vatf8z"
+    >
+      <li
+        class="link blue svelte-1wwxd3a"
+      >
+        <a
+          class="svelte-1wwxd3a"
+          href="https://github.com/giuxtaposition/startpage"
+        >
+          Link 1
+        </a>
+      </li>
+      <li
+        class="link blue svelte-1wwxd3a"
+      >
+        <a
+          class="svelte-1wwxd3a"
+          href="https://github.com/giuxtaposition/startpage"
+        >
+          Link 2
+        </a>
+      </li>
+      <li
+        class="link blue svelte-1wwxd3a"
+      >
+        <a
+          class="svelte-1wwxd3a"
+          href="https://github.com/giuxtaposition/startpage"
+        >
+          Link 3
+        </a>
+      </li>
+    </ul>
+  </section>
+  
+   
+  
+   
+  
+   
+  
+   
+  
+  
+</section>
+`;
+
+exports[`Storyshots Components/Section Orange 1`] = `
+<section
+  class="storybook-snapshot-container"
+>
+   
+  <section
+    class="links-section orange svelte-vatf8z"
+  >
+    <h1
+      class="svelte-vatf8z"
+    >
+      Section Title
+    </h1>
+     
+    <ul
+      class="links svelte-vatf8z"
+    >
+      <li
+        class="link orange svelte-1wwxd3a"
+      >
+        <a
+          class="svelte-1wwxd3a"
+          href="https://github.com/giuxtaposition/startpage"
+        >
+          Link 1
+        </a>
+      </li>
+      <li
+        class="link orange svelte-1wwxd3a"
+      >
+        <a
+          class="svelte-1wwxd3a"
+          href="https://github.com/giuxtaposition/startpage"
+        >
+          Link 2
+        </a>
+      </li>
+      <li
+        class="link orange svelte-1wwxd3a"
+      >
+        <a
+          class="svelte-1wwxd3a"
+          href="https://github.com/giuxtaposition/startpage"
+        >
+          Link 3
+        </a>
+      </li>
+    </ul>
+  </section>
+  
+   
+  
+   
+  
+   
+  
+   
+  
+  
+</section>
+`;
+
+exports[`Storyshots Components/Section Purple 1`] = `
+<section
+  class="storybook-snapshot-container"
+>
+   
+  <section
+    class="links-section purple svelte-vatf8z"
+  >
+    <h1
+      class="svelte-vatf8z"
+    >
+      Section Title
+    </h1>
+     
+    <ul
+      class="links svelte-vatf8z"
+    >
+      <li
+        class="link purple svelte-1wwxd3a"
+      >
+        <a
+          class="svelte-1wwxd3a"
+          href="https://github.com/giuxtaposition/startpage"
+        >
+          Link 1
+        </a>
+      </li>
+      <li
+        class="link purple svelte-1wwxd3a"
+      >
+        <a
+          class="svelte-1wwxd3a"
+          href="https://github.com/giuxtaposition/startpage"
+        >
+          Link 2
+        </a>
+      </li>
+      <li
+        class="link purple svelte-1wwxd3a"
+      >
+        <a
+          class="svelte-1wwxd3a"
+          href="https://github.com/giuxtaposition/startpage"
+        >
+          Link 3
+        </a>
+      </li>
+    </ul>
+  </section>
+  
+   
+  
+   
+  
+   
+  
+   
+  
+  
+</section>
+`;
+
+exports[`Storyshots Components/Section Red 1`] = `
+<section
+  class="storybook-snapshot-container"
+>
+   
+  <section
+    class="links-section red svelte-vatf8z"
+  >
+    <h1
+      class="svelte-vatf8z"
+    >
+      Section Title
+    </h1>
+     
+    <ul
+      class="links svelte-vatf8z"
+    >
+      <li
+        class="link red svelte-1wwxd3a"
+      >
+        <a
+          class="svelte-1wwxd3a"
+          href="https://github.com/giuxtaposition/startpage"
+        >
+          Link 1
+        </a>
+      </li>
+      <li
+        class="link red svelte-1wwxd3a"
+      >
+        <a
+          class="svelte-1wwxd3a"
+          href="https://github.com/giuxtaposition/startpage"
+        >
+          Link 2
+        </a>
+      </li>
+      <li
+        class="link red svelte-1wwxd3a"
+      >
+        <a
+          class="svelte-1wwxd3a"
+          href="https://github.com/giuxtaposition/startpage"
+        >
+          Link 3
+        </a>
+      </li>
+    </ul>
+  </section>
+  
+   
+  
+   
+  
+   
+  
+   
+  
+  
+</section>
+`;

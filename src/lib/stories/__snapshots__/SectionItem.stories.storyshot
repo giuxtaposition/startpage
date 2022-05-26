@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/SectionItem Blue 1`] = `
+<section
+  class="storybook-snapshot-container"
+>
+   
+  <ul
+    class="svelte-1y8k1lr"
+  >
+    <li
+      class="link blue svelte-1wwxd3a"
+    >
+      <a
+        class="svelte-1wwxd3a"
+        href="https://github.com/giuxtaposition/startpage"
+      >
+        link text
+      </a>
+    </li>
+  </ul>
+  
+   
+  
+   
+  
+   
+  
+   
+  
+  
+</section>
+`;
+
+exports[`Storyshots Components/SectionItem Orange 1`] = `
+<section
+  class="storybook-snapshot-container"
+>
+   
+  <ul
+    class="svelte-1y8k1lr"
+  >
+    <li
+      class="link orange svelte-1wwxd3a"
+    >
+      <a
+        class="svelte-1wwxd3a"
+        href="https://github.com/giuxtaposition/startpage"
+      >
+        link text
+      </a>
+    </li>
+  </ul>
+  
+   
+  
+   
+  
+   
+  
+   
+  
+  
+</section>
+`;
+
+exports[`Storyshots Components/SectionItem Purple 1`] = `
+<section
+  class="storybook-snapshot-container"
+>
+   
+  <ul
+    class="svelte-1y8k1lr"
+  >
+    <li
+      class="link purple svelte-1wwxd3a"
+    >
+      <a
+        class="svelte-1wwxd3a"
+        href="https://github.com/giuxtaposition/startpage"
+      >
+        link text
+      </a>
+    </li>
+  </ul>
+  
+   
+  
+   
+  
+   
+  
+   
+  
+  
+</section>
+`;
+
+exports[`Storyshots Components/SectionItem Red 1`] = `
+<section
+  class="storybook-snapshot-container"
+>
+   
+  <ul
+    class="svelte-1y8k1lr"
+  >
+    <li
+      class="link red svelte-1wwxd3a"
+    >
+      <a
+        class="svelte-1wwxd3a"
+        href="https://github.com/giuxtaposition/startpage"
+      >
+        link text
+      </a>
+    </li>
+  </ul>
+  
+   
+  
+   
+  
+   
+  
+   
+  
+  
+</section>
+`;

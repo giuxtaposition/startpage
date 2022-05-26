@@ -1,6 +1,20 @@
 <script>
     import { Meta, Story, Template } from '@storybook/addon-svelte-csf'
     import Section from './Section.svelte'
+    const links = [
+        {
+            title: 'Link 1',
+            href: 'https://github.com/giuxtaposition/startpage',
+        },
+        {
+            title: 'Link 2',
+            href: 'https://github.com/giuxtaposition/startpage',
+        },
+        {
+            title: 'Link 3',
+            href: 'https://github.com/giuxtaposition/startpage',
+        },
+    ]
 </script>
 
 <Meta
@@ -15,7 +29,6 @@
                 type: { summary: 'string' },
                 defaultValue: { summary: 'section title' },
             },
-            defaultValue: 'section title',
             control: {
                 type: 'text',
             },
@@ -28,7 +41,6 @@
                 type: { summary: 'blue | purple | red | orange' },
                 defaultValue: { summary: 'blue' },
             },
-            defaultValue: 'blue',
             control: {
                 type: 'select',
                 options: ['blue', 'red', 'purple', 'orange'],
@@ -45,20 +57,6 @@
                     detail: '[{title: "Link 1", href: "https://github.com/giuxtaposition/startpage"}, {title: "Link 2", href: "https://github.com/giuxtaposition/startpage"}, {title: "Link 3", href: "https://github.com/giuxtaposition/startpage"}]',
                 },
             },
-            defaultValue: [
-                {
-                    title: 'Link 1',
-                    href: 'https://github.com/giuxtaposition/startpage',
-                },
-                {
-                    title: 'Link 2',
-                    href: 'https://github.com/giuxtaposition/startpage',
-                },
-                {
-                    title: 'Link 3',
-                    href: 'https://github.com/giuxtaposition/startpage',
-                },
-            ],
             control: 'object',
         },
     }}
@@ -68,4 +66,22 @@
     <Section {...args} />
 </Template>
 
-<Story name="Section" />
+<Story
+    name="Blue"
+    args={{ title: 'Section Title', links: links, color: 'blue' }}
+/>
+
+<Story
+    name="Red"
+    args={{ title: 'Section Title', links: links, color: 'red' }}
+/>
+
+<Story
+    name="Orange"
+    args={{ title: 'Section Title', links: links, color: 'orange' }}
+/>
+
+<Story
+    name="Purple"
+    args={{ title: 'Section Title', links: links, color: 'purple' }}
+/>
