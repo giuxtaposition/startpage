@@ -1,26 +1,24 @@
 <script lang="ts">
-    import Section from './lib/stories/components/Section/Section.svelte'
-    import type { Section as SectionType } from './lib/types/Section'
+    import { onMount } from "svelte"
+    import Section from "./lib/stories/components/Section/Section.svelte"
+    import type { Section as SectionType } from "./lib/types/Section"
 
-    const sections: Promise<SectionType[]> = getLinkSectionsData()
+    let sections: SectionType[] = []
 
-    async function getLinkSectionsData() {
-        const apiResponse = await fetch('./links.json')
-
-        return await apiResponse.json()
-    }
+    onMount(async () => {
+        const apiResponse = await fetch("./links.json")
+        sections = await apiResponse.json()
+    })
 </script>
 
 <main>
-    {#await sections then sections}
-        {#each sections as section}
-            <Section
-                title={section.title}
-                links={section.links}
-                color={section.color}
-            />
-        {/each}
-    {/await}
+    {#each sections as section}
+        <Section
+            title={section.title}
+            links={section.links}
+            color={section.color}
+        />
+    {/each}
 </main>
 
 <style lang="sass">
